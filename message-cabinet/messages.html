@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сообщения — MessageBox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo"><div class="logo-mark">M</div> MessageBox</div>
+        <div class="nav-title">Меню</div>
+        <nav class="nav">
+            <a href="index.html">⌂ &nbsp; Личный кабинет</a>
+            <a class="active" href="messages.html">✉ &nbsp; Сообщения</a>
+            <a href="send-message.html">＋ &nbsp; Новое сообщение</a>
+            <a href="statistics.html">▥ &nbsp; Статистика</a>
+        </nav>
+        <div class="user-mini"><div class="avatar">А</div><div><strong>Алексей Иванов</strong><span>alex@example.com</span></div></div>
+    </aside>
+
+    <main class="main">
+        <header class="header">
+            <div><h1>Сообщения</h1><p>Входящие и отправленные сообщения.</p></div>
+            <a class="btn" href="send-message.html">＋ Новое сообщение</a>
+        </header>
+
+        <section class="card section">
+            <div class="section-header">
+                <h2>Входящие</h2>
+                <span class="badge warning">5 новых</span>
+            </div>
+            <div class="table-wrap">
+                <table>
+                    <thead><tr><th>Отправитель</th><th>Тема</th><th>Дата</th><th>Статус</th></tr></thead>
+                    <tbody>
+                    <tr><td>Мария Петрова</td><td>Важная информация</td><td>14.09.2026</td><td><span class="badge warning">Новое</span></td></tr>
+                    <tr><td>Иван Соколов</td><td>По проекту</td><td>13.09.2026</td><td><span class="badge success">Прочитано</span></td></tr>
+                    <tr><td>Анна Смирнова</td><td>Встреча</td><td>12.09.2026</td><td><span class="badge success">Прочитано</span></td></tr>
+                    <tr><td>Дмитрий Орлов</td><td>Документы</td><td>11.09.2026</td><td><span class="badge success">Прочитано</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card section" style="margin-top:22px;">
+            <div class="section-header"><h2>Отправленные</h2></div>
+            <div class="table-wrap">
+                <table>
+                    <thead><tr><th>Получатель</th><th>Тема</th><th>Дата</th><th>Статус</th></tr></thead>
+                    <tbody>
+                    <tr><td>Ольга Кузнецова</td><td>Вопрос по заданию</td><td>14.09.2026</td><td><span class="badge success">Доставлено</span></td></tr>
+                    <tr><td>Сергей Волков</td><td>Обсуждение проекта</td><td>13.09.2026</td><td><span class="badge success">Доставлено</span></td></tr>
+                    <tr><td>Мария Петрова</td><td>Спасибо!</td><td>12.09.2026</td><td><span class="badge gray">Прочитано</span></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>

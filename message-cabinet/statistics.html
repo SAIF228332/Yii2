@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Статистика — MessageBox</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app">
+    <aside class="sidebar">
+        <div class="logo"><div class="logo-mark">M</div> MessageBox</div>
+        <div class="nav-title">Меню</div>
+        <nav class="nav">
+            <a href="index.html">⌂ &nbsp; Личный кабинет</a>
+            <a href="messages.html">✉ &nbsp; Сообщения</a>
+            <a href="send-message.html">＋ &nbsp; Новое сообщение</a>
+            <a class="active" href="statistics.html">▥ &nbsp; Статистика</a>
+        </nav>
+        <div class="user-mini"><div class="avatar">А</div><div><strong>Алексей Иванов</strong><span>alex@example.com</span></div></div>
+    </aside>
+
+    <main class="main">
+        <header class="header">
+            <div><h1>Статистика</h1><p>Общая статистика ваших сообщений.</p></div>
+        </header>
+
+        <section class="stats">
+            <div class="card stat"><div class="stat-top"><span class="stat-label">Всего отправлено</span><div class="stat-icon">↗</div></div><div class="stat-value">24</div><div class="stat-note">Сообщения отправлены</div></div>
+            <div class="card stat"><div class="stat-top"><span class="stat-label">Всего получено</span><div class="stat-icon">↙</div></div><div class="stat-value">37</div><div class="stat-note">Сообщения получены</div></div>
+            <div class="card stat"><div class="stat-top"><span class="stat-label">Всего сообщений</span><div class="stat-icon">✉</div></div><div class="stat-value">61</div><div class="stat-note">За всё время</div></div>
+        </section>
+
+        <section class="card section">
+            <div class="section-header"><h2>Активность по месяцам</h2></div>
+            <div class="chart">
+                <div class="bar" style="height:35%"><span>8</span><small>Май</small></div>
+                <div class="bar" style="height:48%"><span>12</span><small>Июн</small></div>
+                <div class="bar" style="height:62%"><span>16</span><small>Июл</small></div>
+                <div class="bar" style="height:45%"><span>11</span><small>Авг</small></div>
+                <div class="bar" style="height:82%"><span>21</span><small>Сен</small></div>
+            </div>
+        </section>
+
+        <section class="card section" style="margin-top:22px;">
+            <div class="section-header"><h2>Сводка</h2></div>
+            <div class="info-list">
+                <div class="info-item"><span>Среднее отправлено в месяц</span><strong>4,8 сообщения</strong></div>
+                <div class="info-item"><span>Среднее получено в месяц</span><strong>7,4 сообщения</strong></div>
+                <div class="info-item"><span>Доля прочитанных</span><strong>92%</strong></div>
+                <div class="info-item"><span>Активность</span><strong style="color:var(--success)">Высокая</strong></div>
+            </div>
+        </section>
+    </main>
+</div>
+</body>
+</html>
